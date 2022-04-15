@@ -178,7 +178,7 @@ body {
 .nav-list-link::after {
     content: "";
     position: absolute;
-    bottom: -1px;
+    bottom: -2px;
     right: 0;
     width: 100%;
     height: 4px;
@@ -345,6 +345,10 @@ body {
     padding-left: 16px;
     margin-right: 12px;
     color: white;
+}
+
+.form-field::placeholder {
+
 }
 
 .form-input::placeholder {
@@ -949,6 +953,13 @@ h3 {
     border-radius: 4px;
 }
 
+.form-field label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
 .form-field-wrapper {
     position: relative;
 }
@@ -976,6 +987,12 @@ h3 {
 
 textarea::placeholder {
     color: rgba(117, 117, 117, 0.5);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+
 }
 
 .form-field input:focus {
@@ -1021,6 +1038,7 @@ textarea::placeholder {
 .contact-form-checkbox-label {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 14px;
 }
 
